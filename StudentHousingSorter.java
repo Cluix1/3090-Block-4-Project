@@ -12,6 +12,29 @@ import java.util.Scanner;
  * - Campus faculty / TA / campus employee: +1 point
  * - Has children: +3 points
  * - Academic or merit scholarship: +1 point
+ * 
+ *  Test Cases from Part 3:
+ *  Test Case 1:
+ *  - Is not on academic probation
+ *  - Is a freshman (+2)
+ *  - Is not campus faculty
+ *  - Has children (+3)
+ *  - Does not have merit/academic scholarship
+ * 
+ *  Test Case 2:
+ *  - Is on academic probation (-2)
+ *  - Is not a freshman
+ *  - Is not campus faculty
+ *  - Has children (+3)
+ *  - Does not have merit/academic scholarship
+ * 
+ *  Test Case 3:
+ *  - Is not on academic probation
+ *  - Is not a freshman
+ *  - Is campus faculty (+1)
+ *  - Does not have children
+ *  - Has merit scholarship (+1)
+ * 
  *
  * Higher scores should receive earlier housing selection.
  * If students tie, signup order is used as the tiebreaker.
